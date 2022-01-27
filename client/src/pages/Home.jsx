@@ -9,7 +9,7 @@ import PictorialCover from '../components/PictorialCover';
 import { useSelector } from 'react-redux';
 import { useEffect } from 'react';
 import { useState } from 'react';
-import axios from 'axios';
+import { publicRequest } from '../requestMethods';
 
 const Home = () => {
     const [popular, setPopular] = useState([]);
@@ -20,7 +20,7 @@ const Home = () => {
     useEffect(() => {
         const getProducts = async () => {
             try {
-                const res = await axios.get("/products/popular");
+                const res = await publicRequest.get("/products/popular");
                 setPopular(res.data);
             } catch (err) {
                 console.log(err);
