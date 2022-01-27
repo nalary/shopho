@@ -104,7 +104,7 @@ const Footer = () => {
     return (
         <Container>
             <Left>
-                <Logo>Shop.Hop</Logo>                
+                <Logo>Shop.Ho</Logo>                
                 <Desc>
                     We’re all about one thing: making the best basics in town so you can feel and be your absolute best. That whole feeling good thing? We’re serious about it. Because when you feel good, you can do anything. Make a statement, make a difference, make nice, make a move, make some noise! Our basics are: Designed for comfort, Energized by creativity, Made for your self-expression
                 </Desc>
